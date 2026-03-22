@@ -1,0 +1,9 @@
+import pandas as pd
+raw_data = {   "order_id": [1, 2, 3, 4],
+    "customer": ["Alice", "Bob", "Alice", "David"],
+    "amount": ["100", "200", "150", "300"],
+    "order_date": ["2024-01-01", "2024-01-03", "2024-01-05", "2024-01-10"]
+}
+# df_raw = pd.read_csv("orders.csv")
+df_raw = pd.DataFrame(raw_data)
+print(df_raw)
